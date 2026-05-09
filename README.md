@@ -151,12 +151,7 @@ The dashboard connects directly to the SQLite database file and displays:
 - **Top Departure Airports** — Horizontal bar chart ranked by flight count
 - **Top Arrival Airports** — Horizontal bar chart ranked by flight count
 - **Recent Flights Table** — Live view of the latest records in the DB
-- **ETL Run History** — Audit log of every pipeline execution
 
-### Applying the dark theme
-1. Open Power BI Desktop and load your `.pbix` file
-2. Go to **View → Themes → Browse for themes**
-3. Select `opensky_dark_theme.json`
 
 ### Refreshing data
 Click **Refresh** in the Power BI top ribbon to reload the latest data from SQLite.
